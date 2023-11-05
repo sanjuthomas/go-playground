@@ -9,11 +9,6 @@ import (
 	"strings"
 )
 
-type Name struct {
-	FirstName string
-	LastName  string
-}
-
 func main() {
 	fmt.Print("Enter 10 numbers (eg: 5, 3, 1) : ")
 	reader := bufio.NewReader(os.Stdin)
